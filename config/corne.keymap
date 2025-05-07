@@ -9,7 +9,7 @@
 #include <dt-bindings/zmk/keys.h>
 
 /* Keyboard mission controll */
-#define MISSION (ZMK_HID_USAGE(HID_USAGE_KEY, 0xc1))
+#define MISSION (ZMK_HID_USAGE(HID_USAGE_KEY, 0xC1))
 
 / {
     keymap {
