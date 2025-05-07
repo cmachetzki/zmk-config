@@ -9,7 +9,7 @@
 #include <dt-bindings/zmk/keys.h>
 
 /* Keyboard mission controll */
-#define MISSION (ZMK_HID_USAGE(HID_USAGE_KEY, HID_USAGE_GD_RPM))
+#define MISSION (ZMK_HID_USAGE(HID_USAGE_KEY, 0xc1))
 
 / {
     keymap {
@@ -56,10 +56,10 @@
 
             display-name = "Nav";
             bindings = <
-&none  &none         &none         &none      &none      &none    &kp C_AC_REDO  &kp K_PASTE  &kp K_COPY   &kp K_CUT      &kp K_UNDO  &none
-&none  &kp LEFT_GUI  &kp LEFT_ALT  &kp LCTRL  &kp LSHFT  &none    &kp CAPS       &kp LEFT     &kp DOWN     &kp UP         &kp RIGHT   &none
-&none  &none         &none         &none      &none      &none    &kp INS        &kp HOME     &kp PAGE_UP  &kp PAGE_DOWN  &kp END     &none
-                                   &trans     &none      &none    &none          &none        &none
+&none  &none         &none         &none      &none      &none        &kp C_AC_REDO  &kp K_PASTE  &kp K_COPY   &kp K_CUT      &kp K_UNDO  &none
+&none  &kp LEFT_GUI  &kp LEFT_ALT  &kp LCTRL  &kp LSHFT  &kp MISSION  &kp LEFT       &kp DOWN     &kp UP       &kp RIGHT      &kp CAPS    &none
+&none  &none         &none         &none      &none      &none        &kp INS        &kp HOME     &kp PAGE_UP  &kp PAGE_DOWN  &kp END     &none
+                                   &trans     &none      &none        &none          &none        &none
             >;
         };
 
