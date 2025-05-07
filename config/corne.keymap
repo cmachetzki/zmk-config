@@ -8,6 +8,9 @@
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
 
+/* Keyboard mission controll */
+#define MISSION (ZMK_HID_USAGE(HID_USAGE_KEY, HID_USAGE_GD_RPM))
+
 / {
     keymap {
         compatible = "zmk,keymap";
