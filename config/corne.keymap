@@ -13,9 +13,12 @@
 #define MISSION (ZMK_HID_USAGE(HID_USAGE_KEY, 0xC1))
 
 / {
+   behaviors {
     &mt {
         flavor = "balanced";
     };
+   }; 
+    
     keymap {
         compatible = "zmk,keymap";
 
