@@ -111,10 +111,10 @@
 
         windows {
             bindings = <
-&trans  &trans                &trans             &kp LA(LC(U))     &kp LA(LC(I))      &trans                   &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp LA(LC(LG(LEFT)))  &kp LA(LC(ENTER))  &kp LA(LC(LEFT))  &kp LA(LC(RIGHT))  &kp LA(LC(LG(RIGHT)))    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans                &trans             &kp LA(LC(J))     &kp LA(LC(K))      &trans                   &trans  &trans  &trans  &trans  &trans  &trans
-                                                 &trans            &kp LA(LG(SPACE))  &kp LG(SPACE)            &trans  &trans  &trans
+&trans  &trans                &trans             &kp LA(LC(U))      &kp LA(LC(I))      &trans                   &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp LA(LC(LG(LEFT)))  &kp LA(LC(ENTER))  &kp LA(LC(LEFT))   &kp LA(LC(RIGHT))  &kp LA(LC(LG(RIGHT)))    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans                &trans             &kp LA(LC(J))      &kp LA(LC(K))      &trans                   &trans  &trans  &trans  &trans  &trans  &trans
+                                                 &kp LS(LG(SPACE))  &kp LA(LG(SPACE))  &kp LG(SPACE)            &trans  &trans  &trans
             >;
         };
     };
